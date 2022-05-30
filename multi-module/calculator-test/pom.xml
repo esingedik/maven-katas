@@ -9,7 +9,11 @@
     <name>calculator-api</name>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-
+    <parent>
+        <artifactId>multi-module</artifactId>
+        <groupId>com.example.maven</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <dependencies>
         <dependency>
             <groupId>com.example.maven</groupId>
